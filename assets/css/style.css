@@ -1,0 +1,82 @@
+    p {
+        font-size: 16pt;
+        color: black;
+        font-weight: bold;
+        margin-left: 40px;
+    }
+
+    body,
+    html {
+        height: 100%;
+    }
+
+    #gotIt {
+        color: #50FF00;
+        background-color: #B0553F;
+        text-align: center;
+    }
+
+    #again, #warning {
+        display: inline-block;
+        background-color: white;
+    }
+
+    .instructions {
+        font-size: 12pt;
+        margin-left: 70px;
+    }
+
+    #guessLetters {
+        font-size: 24pt;
+    }
+
+    #spaced {
+        position: absolute;
+        line-height: 40px;
+    }
+
+    #PirateShip {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #PirateShipLose {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #unhappy {
+        position: absolute;
+        left: 66vw;
+        bottom: 58vh;
+        height: 20vh;
+        width: 130px;
+    }
+
+    #escapeBoat {
+        position: absolute;
+        bottom: -3%;
+        left: 35%;
+        width: 400px;
+        height: 400px;
+    }
+
+    #guesses {
+        position: absolute;
+        margin-left: 60px;
+        line-height: 25px;
+        font-size: 14pt;
+    }
+
+    h2 {
+        position: absolute;
+        left: 20%;
+        bottom: 0;
+        font-size: 7vw;
+    }
